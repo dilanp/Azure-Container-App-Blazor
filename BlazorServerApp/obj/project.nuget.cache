@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8lKkp+697DxQCrnKShRwkXFzUaxE3gyQRqF+rhlJ8+6ChSsiJjUJywnYckzMqbmtOLSom2tT2aiM5Ry/97ydGQ==",
+  "dgSpecHash": "/C75mMYNZ97fwy8eVPp4sncMedu+cxlT37uim2oxCpCWCwPx7ruSashlZpM8eZGaY3wsO9sYTjM0C86af55xtw==",
   "success": true,
-  "projectFilePath": "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/BlazorServerApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\dperer\\OneDrive - Global Business Travel\\Documents\\Dilan\\Learning Projects\\Azure-Container-App-Blazor\\BlazorServerApp\\BlazorServerApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dperer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
