@@ -8,26 +8,28 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dperer\\.nuget\\packages\\": {}
+    "/Users/dilanperera/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dperer\\OneDrive - Global Business Travel\\Documents\\Dilan\\Learning Projects\\Azure-Container-App-Blazor\\BlazorServerApp\\BlazorServerApp.csproj",
+      "projectUniqueName": "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/BlazorServerApp.csproj",
       "projectName": "BlazorServerApp",
-      "projectPath": "C:\\Users\\dperer\\OneDrive - Global Business Travel\\Documents\\Dilan\\Learning Projects\\Azure-Container-App-Blazor\\BlazorServerApp\\BlazorServerApp.csproj",
-      "packagesPath": "C:\\Users\\dperer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dperer\\OneDrive - Global Business Travel\\Documents\\Dilan\\Learning Projects\\Azure-Container-App-Blazor\\BlazorServerApp\\obj\\",
+      "projectPath": "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/BlazorServerApp.csproj",
+      "packagesPath": "/Users/dilanperera/.nuget/packages/",
+      "outputPath": "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\dperer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/dilanperera/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -55,12 +57,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.17, 5.0.17]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -69,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }

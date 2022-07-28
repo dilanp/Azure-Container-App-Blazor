@@ -13,70 +13,70 @@ namespace BlazorServerApp.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "c:\Users\dperer\OneDrive - Global Business Travel\Documents\Dilan\Learning Projects\Azure-Container-App-Blazor\BlazorServerApp\_Imports.razor"
+#line 1 "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "c:\Users\dperer\OneDrive - Global Business Travel\Documents\Dilan\Learning Projects\Azure-Container-App-Blazor\BlazorServerApp\_Imports.razor"
+#line 2 "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "c:\Users\dperer\OneDrive - Global Business Travel\Documents\Dilan\Learning Projects\Azure-Container-App-Blazor\BlazorServerApp\_Imports.razor"
+#line 3 "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "c:\Users\dperer\OneDrive - Global Business Travel\Documents\Dilan\Learning Projects\Azure-Container-App-Blazor\BlazorServerApp\_Imports.razor"
+#line 4 "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "c:\Users\dperer\OneDrive - Global Business Travel\Documents\Dilan\Learning Projects\Azure-Container-App-Blazor\BlazorServerApp\_Imports.razor"
+#line 5 "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "c:\Users\dperer\OneDrive - Global Business Travel\Documents\Dilan\Learning Projects\Azure-Container-App-Blazor\BlazorServerApp\_Imports.razor"
+#line 6 "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "c:\Users\dperer\OneDrive - Global Business Travel\Documents\Dilan\Learning Projects\Azure-Container-App-Blazor\BlazorServerApp\_Imports.razor"
+#line 7 "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "c:\Users\dperer\OneDrive - Global Business Travel\Documents\Dilan\Learning Projects\Azure-Container-App-Blazor\BlazorServerApp\_Imports.razor"
+#line 8 "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "c:\Users\dperer\OneDrive - Global Business Travel\Documents\Dilan\Learning Projects\Azure-Container-App-Blazor\BlazorServerApp\_Imports.razor"
+#line 9 "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/_Imports.razor"
 using BlazorServerApp;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "c:\Users\dperer\OneDrive - Global Business Travel\Documents\Dilan\Learning Projects\Azure-Container-App-Blazor\BlazorServerApp\_Imports.razor"
+#line 10 "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/_Imports.razor"
 using BlazorServerApp.Shared;
 
 #line default
@@ -90,7 +90,7 @@ using BlazorServerApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "c:\Users\dperer\OneDrive - Global Business Travel\Documents\Dilan\Learning Projects\Azure-Container-App-Blazor\BlazorServerApp\Shared\SurveyPrompt.razor"
+#line 12 "/Users/dilanperera/Documents/Azure-Container-App-Blazor/BlazorServerApp/Shared/SurveyPrompt.razor"
        
     // Demonstrates how a parent component can supply parameters
     [Parameter]
