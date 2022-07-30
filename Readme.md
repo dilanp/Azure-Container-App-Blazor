@@ -16,7 +16,8 @@ Azure Resources
 ===============
 - Create a Resource Group called "ff-conapp-rg" in UK South region.
 - Create a Standard Container Registry (ACR) called "ffacr33" in UK South region.
-- Once the ACR is created get its URL in "Access Keys" section => ffacr33.azurecr.io
+- Once the ACR is created get its URL in "Access Keys" section => ffacr33.azurecr.io.
+- Once the image is pushed to ACR, create the Container App => myblazorapp. Make sure to use ACR and image:tag during the creation in app settings. Also accept traffic from anywhere and use the container port specified in dockerfile. Once deployed app should be available via container app URL.
 
 Dockerize the project and push to ACR
 =====================================
@@ -38,4 +39,4 @@ Dockerize the project and push to ACR
 - Push the newly tagged image to ACR.
   - docker push ffacr33.azurecr.io/blazorserverapp:latest
 - Visit the ACR on Azure and make sure the image is available there.
-- 
+- Make sure the Admin user is enabled in ACR.
