@@ -31,6 +31,7 @@ jobs:
           username: ${{ secrets.MYBLAZORAPP_REGISTRY_USERNAME }}
           password: ${{ secrets.MYBLAZORAPP_REGISTRY_PASSWORD }}
       - name: Show environment details
+        uses: azure/CLI@v1
         with:
           inlineScript: |
             pwd
