@@ -41,8 +41,8 @@ jobs:
         with:
           push: true
           tags: ffacr33.azurecr.io/myblazorapp:${{ github.sha }}
-          file: ./Dockerfile
-          context: ./
+          file: ./BlazorServerApp/Dockerfile
+          context: ./BlazorServerApp/
 
 
   deploy:
