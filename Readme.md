@@ -11,6 +11,7 @@ Create and run Blazor app
   - dotnet build
 - Run the project and make sure app runs at the URL specified.
   - dotnet run
+- Now it's time to add the project to GitHub.
 
 Azure Resources
 ===============
@@ -40,3 +41,17 @@ Dockerize the project and push to ACR
   - docker push ffacr33.azurecr.io/blazorserverapp:latest
 - Visit the ACR on Azure and make sure the image is available there.
 - Make sure the Admin user is enabled in ACR.
+
+Setup CI/CD for the Container App
+=================================
+- Visit "Continuous deployment" blade of Container App on Azure Portal.
+- Click on the "Sign in with GitHub" link on the page and authorise to use GitHub.
+- Select the "master/main" branch of the project repository.
+- Click on the "Configure service principal" link and create an associated service principal.
+- Finally, click on "Start continuous deployment" button at the bottom.
+- Notice the new ".github/workflows/" folder and the CI/CD YAML file created in GitHub repository.
+- Click on "Actions" tab and make sure the build/deploy runs correctly. Fix any build/deploy issues that may exist.
+- Notice the new Repository created in ACR and images are added along with the tags.
+- Now, it's time to pull the CI/CD pipeline changes to local Git repository.
+  - git pull
+
