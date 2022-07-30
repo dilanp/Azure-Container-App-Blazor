@@ -54,4 +54,4 @@ Setup CI/CD for the Container App
 - Notice the new Repository created in ACR and images are added along with the tags.
 - Now, it's time to pull the CI/CD pipeline changes to local Git repository.
   - git pull
-
+- Do a small change to "Pages/Index.razor" file and push the change. Make sure change is visible in  Azure Container App after the completion of the CI/CD pipeline.
